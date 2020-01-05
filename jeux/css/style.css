@@ -1,0 +1,183 @@
+
+body,div,p,html{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+/* page index.php */
+
+#acceuil{
+	width: 1280px;;
+	height: 600px;
+	margin-top: -65px;
+	margin-bottom: 24px;
+}
+.titre{
+	position: absolute;
+	display: block;
+	top: 50px;
+	left: 330px;
+	font-size: 6em;
+}
+#acceuil form{
+	position: absolute;
+	display: block;
+	top: 320px;
+	left: 130px;
+	width: 80%;
+}
+#acceuil form label{
+	margin-left: 10%;
+	font-size: 50px;
+	line-height: 50px;
+	float: left;
+	margin-top: 0.5%;
+}
+#acceuil form input[name='nom']{
+	margin-left: 10%;
+	font-size: 50px;
+	line-height: 50px;
+	width: 210px;
+	float: left;
+	border-radius: 25px;
+}
+#acceuil form input[type='submit']{
+	margin-left: 8%;
+	font-size: 25px;
+	margin-top: 0.5%;
+	height: 50px;
+	width: 250px;
+	float: left;
+	border-radius: 25px;
+}
+.erreur{
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	text-align: center;
+	display: inline-block;
+	clear: both;
+	width: 80%;
+	color: rgb(255,30,30);
+	background-color: rgba(0,0,0,0.8);
+	margin-left: 10%;
+	font-size: 45px;
+	border-radius: 25px;
+}
+
+
+/* page jeu.php */
+
+.regle{
+	width: 90%;
+	margin: 0 auto;
+	clear: both;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: 1%;
+	margin-bottom: 10px;
+}
+.table{
+	width: 100%;
+	height: 100%; 
+	padding-left: 10px;
+	padding-right: 10px;  
+}
+.table h1{
+	position: absolute;
+	top: 0px;
+	left: 405px;
+	text-align: center;
+	font-size: 25px;
+	line-height: 50px;
+}
+.tapis{
+	width: 52%;
+	height: 325px;
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	float: left;
+	border-radius: 25px;
+	background-color: rgba(120,230,0,0.8);
+	padding: 1%;
+}
+#infos{
+	position: absolute;
+	top: 5%;
+	right: 3%;
+	width: 15%;
+	border-radius: 25px;
+	background-color: rgba(120,230,0,0.8);
+	padding: 2%;
+}
+/*
+.debug{
+	position: absolute;
+	top: 250px;
+	right: 10px;
+	width: 300px;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.8);
+	color: rgb(120,230,0);
+}
+*/
+.cartes{
+	width: 184px;
+	height: 294px;
+	margin: 3%;
+	float: left;
+	border-radius: 25px;
+}
+.carte{
+	border-radius: 25px;
+	width: 100%;
+	height: 100%;
+	border: black 1px solid;
+}
+.choix{
+	width: 5%;
+	margin: 0 auto;
+}
+#partie{
+	position: absolute;
+	top: 100px;
+	left: 250px;
+	text-align: center;
+	font-size: 35px;
+}
+#Rejouer{
+	position: absolute;
+	top: 200px;
+	left: 450px;
+	text-align: center;
+	font-size: 25px;
+}
+#Terminer{
+	position: absolute;
+	top: 250px;
+	left: 450px;
+	text-align: center;
+	font-size: 25px;
+}
+h2 a{
+	text-decoration: none;
+	color: black;
+}
+h2 a:hover{
+	text-decoration: underline;
+}
+.dos{
+	background-image: url(img/téléchargement.jpg);
+	height: 274px;
+}
+.as{
+	background-image: url('img/images (4).jpg');
+	height: 274px;
+}
+.roi{
+	background-image: url('img/images (7).jpg');
+	height: 274px;
+}

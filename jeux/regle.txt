@@ -1,0 +1,15 @@
+Jeu du bonto
+
+Nombre de joueurs: 1
+Nombre de cartes: 3
+Nombre de chances: 2
+
+Principe du jeu:
+Mélanger 3 cartes faces cachées, dans les 3 cartes il y'a 2 as et une figure, le but étant de retrouver la figure après mélange virtuel.
+
+Le joueur choisit sa carte puis on retourne une des deux cartes qui n'a pas été choisie.
+Enfin on propose au joueur une dernière chance de pouvoir changer son choix.
+
+Si le joueur ne change pas de choix depuis le début et qu'il gange, alor il triple sa mise, si i fait un changement de choix et qu'il gagne, alors on double sa mise ; sinon il a perdu.
+
+Pour gangner la partie le joueur doit obtenir 10000 points, si le joueur à 0 points, alors le jeu est terminé et le joueur a perdu
